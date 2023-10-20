@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\sqlite\shell.c" />
     <ClCompile Include="..\..\..\..\Downloads\sqlite\sqlite3.c" />
     <ClCompile Include="createConnection.cpp" />
     <ClCompile Include="createTable.cpp" />
@@ -140,7 +139,6 @@
   <ItemGroup>
     <ClInclude Include="Header.h" />
     <ClInclude Include="sqlite3.h" />
-    <ClInclude Include="sqlite3ext.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
